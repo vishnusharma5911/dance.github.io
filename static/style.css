@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo img {
+    height: 38px;
+    width: 51px;
+    margin-right: 4px;
+}
+#logo  {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-right: 2%;
+    font-weight: bold;
+}
+#navbar ul {
+    display: flex;
+    /* justify-content: center; */
+    padding: 10px;
+    align-items: center;
+}
+#navbar li {
+   list-style: none;
+}
+#navbar  {
+    background-color: darkred;
+    height: 55px;  
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 22px 25px;
+}
+#navbar li a:hover{
+    color: rgb(0, 0, 0);
+}
+   
+#introsection {
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    background: center / cover no-repeat url("/static/bg2.jpg.jpg")
+}
+#introsection div.small {
+        font-size: 2rem;
+}
+
+.container{
+    /* border: 2px solid rgb(214, 32, 32); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box h2{
+    padding-top: 12px;
+}
+
+#missionsection {
+    height: 300px;   
+    background-color: white;  
+    padding-top: 3px;
+    text-align: center
+}
+    
+   
+#missionsection h1{
+    font-size: 3rem;
+    text-align: center;
+  
+}
+
+#missionsection .box{
+    border: 2px solid black;
+    margin: 8px;
+    border-radius: 9px;
+    width: 31%;
+    height: 210px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+
+.card-img  {
+    height: 100px;
+    padding: 0 14px;
+    margin: 5px;
+    
+}
+
+.card-img img{
+    height: inherit;
+    padding-top:20px ;
+    }
+    
+.card-content{
+    text-align: center;
+    padding: 38px;
+} 
+.card-content p {
+ font-size: 20px;
+} 
+    
+#sponserssection {
+    height: 300px;   
+    background-color: rgb(184, 184, 181);  
+    padding-top: 23px;
+    text-align: center;
+    
+}
+
+#sponserssection h1{
+    font-size: 3rem;
+}
+#sponsers{
+    height: 120px;
+    /* max-width: 1000px; */
+    margin: auto;
+
+}
+.spimage{
+    height: 80%;
+    margin: 50px;
+}
+
+#footer{
+    height: 20px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: cursive;
+}
+    
+    
+    
+
+
+            
+    
